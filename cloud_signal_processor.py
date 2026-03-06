@@ -64,7 +64,7 @@ class CloudSignalProcessor:
         try:
             logger.info(f"Processing signal: {signal_file.name}")
 
-            # Read signal content
+            # Read signal  content
             content = signal_file.read_text(encoding='utf-8')
 
             # Extract metadata
@@ -269,4 +269,5 @@ def main():
         print(f"Processed {count} signals")
 
 if __name__ == "__main__":
+
     main()
